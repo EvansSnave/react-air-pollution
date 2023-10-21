@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 import data from './data';
 import '../assets/country.css';
 
@@ -30,7 +28,7 @@ function Countries() {
         <input
           type="text"
           className="search-country"
-          placeholder="Search country"
+          placeholder="Country name"
           value={searchInput}
           onChange={handleSearchInputChange}
         />
@@ -41,7 +39,6 @@ function Countries() {
             <div key={country.id} className="country-item">
               <div key={country.alpha3}>
                 <Link className="country-link" to={`/${country.country}`}>
-                  <FontAwesomeIcon className="icon-forward" icon={faArrowCircleRight} />
                   <img
                     loading="lazy"
                     width={130}
@@ -54,8 +51,6 @@ function Countries() {
                     {country.country}
                   </h3>
                   <small className="text-neutral-100">
-                    ALPHA:
-                    {' '}
                     {country.alpha3}
                   </small>
                 </Link>

@@ -9,8 +9,8 @@ import data from '../data';
 import '../../assets/country-details.css';
 
 function Details() {
-  const { country } = useParams();
   const [map, setMap] = useState('');
+  const { country } = useParams();
   const [name, setName] = useState('');
   const dispatch = useDispatch();
   const navigate = useNavigate();

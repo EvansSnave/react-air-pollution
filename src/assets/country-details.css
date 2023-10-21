@@ -1,5 +1,5 @@
 .details-header {
-  background-color: #f08;
+  background-color: rgb(51, 255, 0);
   width: 100%;
   height: 4rem;
   display: flex;
@@ -29,7 +29,7 @@
   width: 23%;
   height: 2rem;
   padding: 0.3rem;
-  background-color: #ff0086;
+  background-color: #509b00;
   margin: 0.1rem;
   border-radius: 0.2rem;
 }
