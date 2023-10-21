@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/react-air-pollution/static/css/main.073c9b0a.css",
-    "main.js": "/react-air-pollution/static/js/main.ba3e16a6.js",
-    "static/js/787.beb14645.chunk.js": "/react-air-pollution/static/js/787.beb14645.chunk.js",
-    "static/media/logo.svg": "/react-air-pollution/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react-air-pollution/static/css/main.3cf802be.css",
+    "main.js": "/react-air-pollution/static/js/main.eefae5b9.js",
     "index.html": "/react-air-pollution/index.html",
-    "main.073c9b0a.css.map": "/react-air-pollution/static/css/main.073c9b0a.css.map",
-    "main.ba3e16a6.js.map": "/react-air-pollution/static/js/main.ba3e16a6.js.map",
-    "787.beb14645.chunk.js.map": "/react-air-pollution/static/js/787.beb14645.chunk.js.map"
+    "main.3cf802be.css.map": "/react-air-pollution/static/css/main.3cf802be.css.map",
+    "main.eefae5b9.js.map": "/react-air-pollution/static/js/main.eefae5b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ba3e16a6.js"
+    "static/css/main.3cf802be.css",
+    "static/js/main.eefae5b9.js"
   ]
 }
